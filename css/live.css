@@ -12,7 +12,6 @@ body{
 }
 
 .parent{
-  display: flex;
   border-style: solid;
   border-color:red;
   border-width: 3px;
@@ -28,8 +27,15 @@ body{
   justify-content: center;
 }
 
-.parent{
+.center{
+  text-align: center;
+  margin-bottom: -40px;
+}
 
+/*Don't edit above this line*/
+
+.parent{
+  display: flex;
 }
 
 .item{
